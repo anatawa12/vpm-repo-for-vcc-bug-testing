@@ -1,28 +1,19 @@
 {
-    "name":"Example Listing",
-    "id":"com.vrchat.example-listing",
-    "url":"https://vrchat-community.github.io/template-package-listing/index.json",
+    "name": "Anatawa12's Test VPM Repository for VCC's bug",
+    "id": "io.github.anataw12.vpm-repo-for-vcc-bug-testing",
+    "url": "https://anatawa12.github.io/vpm-repo-for-vcc-bug-testing/index.json",
     "author":{
-        "email":"developer@vrchat.com",
-        "name":"VRChat",
-        "url":"https://hello.vrchat.com"
+        "email": "anatawa12@icloud.com",
+        "name": "anatawa12",
+        "url": "https://github.com/anatawa12"
     },
-    "description":"Example listing of VRChat packages",
-    "infoLink":{
-        "url":"http://github.com/vrchat-community/template-package-listing",
-        "text":"View on GitHub"
+    "description": "Anatawa12's Test VPM Repository for VCC's bug",
+    "infoLink": {
+        "url": "https://github.com/anatawa12/vpm-repo-for-vcc-bug-testing",
+        "text": "View on GitHub"
     },
-    "bannerUrl":"banner.png",
-    "githubRepos":[
-        "vrchat-community/clientsim"
-    ],
-    "packages":[
-        {
-            "name":"com.vrchat.udonsharp",
-            "releases":[
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.7/com.vrchat.UdonSharp.zip",
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.6/com.vrchat.UdonSharp-1.1.6.zip"
-            ]
-        }
+    "bannerUrl": "banner.png",
+    "githubRepos": [
+        "anatawa12/vpm-repo-for-vcc-bug-testing"
     ]
 }
