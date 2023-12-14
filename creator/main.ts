@@ -90,7 +90,11 @@ async function createIndexHtml(repository: Repository): Promise<string> {
       packageList += `<li>${packageJson.displayName ?? packageJson.name} version ${packageJson.version} (<a href="${packageJson.url}">direct link</a>)</li>\n`;
     }
   }
-  return template.replaceAll("${name}", repository.name).replaceAll("${package-list}", packageList);
+  return template
+    .replaceAll("${name}", repository.name)
+    .replaceAll("${base_url}", base_url)
+    .replaceAll("${package-list}", packageList)
+    ;
 }
 
 interface Repository {
