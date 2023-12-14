@@ -1,0 +1,9 @@
+{
+  "name": "package-requires-unity-2021-3",
+  "displayName": "Package Requires Unity 2021.3",
+  "version": "1.0.0",
+  "unity": "2021.3",
+  "legacyFiles": {
+    "legacyFileWithName.txt": "ef4d095af59a4ce1bdae2ca797dd587c"
+  }
+}
