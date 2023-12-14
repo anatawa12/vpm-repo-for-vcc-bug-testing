@@ -39,7 +39,8 @@ async function main() {
     try {
       await processFile(repository, dirEntry.name);
     } catch (e) {
-      console.log(`error processing ${dirEntry.name}: ${e}`);
+      console.log(`error processing ${dirEntry.name}`);
+      console.error(e);
       error = true;
     }
   }
