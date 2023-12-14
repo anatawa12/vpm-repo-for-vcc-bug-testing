@@ -1,7 +1,7 @@
 import * as zipjs from "https://deno.land/x/zipjs@v2.7.32/index.js?dts";
 
 const base_url = "https://anatawa12.github.io/vpm-repo-for-vcc-bug-testing/";
-const out_dir = "dest";
+const out_dir = "dist";
 const src_dir = "src";
 const repo_name = "Anatawa12's Test VPM Repository for VCC's bug";
 

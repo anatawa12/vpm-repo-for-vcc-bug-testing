@@ -31,7 +31,7 @@ jobs:
 
       # build the listing
       - name: Build Listing
-        run: deno run --allow-write=dest --allow-read=dest,src,creator creator/main.ts
+        run: deno run --allow-write=dist --allow-read=dist,src,creator creator/main.ts
  
       # deploy pages
       - name: Setup Pages
