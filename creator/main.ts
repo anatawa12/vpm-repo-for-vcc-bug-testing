@@ -25,6 +25,7 @@ async function main() {
     packages: {},
   }
 
+  let promises: Promise<void>[] = [];
   for await (const dirEntry of Deno.readDir(src_dir)) {
     if (dirEntry.isDirectory) {
       console.log(`skipping directory ${dirEntry.name}`);
@@ -36,14 +37,18 @@ async function main() {
       continue
     }
 
-    try {
-      await processFile(repository, dirEntry.name);
-    } catch (e) {
-      console.log(`error processing ${dirEntry.name}`);
-      console.error(e);
-      error = true;
-    }
+    promises.push((async () => {
+      try {
+        await processFile(repository, dirEntry.name);
+      } catch (e) {
+        console.log(`error processing ${dirEntry.name}`);
+        console.error(e);
+        error = true;
+      }
+    })());
   }
+
+  await Promise.all(promises);
 
   if (error) throw new Error("there are error. see above");
 
