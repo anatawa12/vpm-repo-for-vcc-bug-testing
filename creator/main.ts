@@ -87,7 +87,7 @@ async function createIndexHtml(repository: Repository): Promise<string> {
   for (const [_packageId, packageInfo] of Object.entries(repository.packages)) {
     for (const packageJson of Object.values(packageInfo.versions)) {
       packageJson.name
-      packageList += `<li>${packageJson.displayName ?? packageJson.name} version ${packageJson.version} (<a href="${packageJson.url}">direct link</a>)</li>\n`;
+      packageList += `<li>${packageJson.displayName ?? packageJson.name} version ${packageJson.version} (<a href="${packageJson.url}">direct link</a> <pre>${packageJson.name}</pre>)</li>\n`;
     }
   }
   return template
