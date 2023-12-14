@@ -1,0 +1,8 @@
+{
+    "name": "legacy-packages.depends-on-sdk-worlds-3-4-0",
+    "displayName": "The Package depends on SDK Worlds 3.4.0",
+    "version": "1.0.0",
+    "vpmDependencies": {
+        "com.vrchat.worlds": ">=3.4.0-beta.1"
+    }
+}

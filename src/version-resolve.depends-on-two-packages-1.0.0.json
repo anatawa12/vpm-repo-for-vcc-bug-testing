@@ -1,0 +1,9 @@
+{
+    "name": "version-resolve.depends-on-two-packages",
+    "displayName": "Depends on 'Package Depends on Avatars [12]'",
+    "version": "1.0.0",
+    "vpmDependencies": {
+        "version-resolve.package-depends-on-avatars-1": "1.0.0",
+        "version-resolve.package-depends-on-avatars-2": "1.0.0"
+    }
+}

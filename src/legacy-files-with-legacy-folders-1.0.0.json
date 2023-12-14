@@ -1,0 +1,11 @@
+{
+  "name": "legacy-files-with-legacy-folders",
+  "displayName": "legacyFiles with Name with legacyFolders",
+  "version": "1.0.0",
+  "legacyFiles": {
+    "legacyFileWithName.txt": "ef4d095af59a4ce1bdae2ca797dd587c"
+  },
+  "legacyFolders": {
+    "Assets/legacyFolder": ""
+  }
+}

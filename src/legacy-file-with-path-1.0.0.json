@@ -1,0 +1,8 @@
+{
+  "name": "legacy-file-with-path",
+  "displayName": "Legacy File With Path",
+  "version": "1.0.0",
+  "legacyFiles": {
+    "Assets/legacyFileWithPath.txt": "d3f18a57eb784e98a85e5a7401778e7e"
+  }
+}

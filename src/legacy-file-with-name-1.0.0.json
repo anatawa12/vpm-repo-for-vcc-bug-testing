@@ -1,0 +1,8 @@
+{
+  "name": "legacy-file-with-name",
+  "displayName": "Legacy File with Name",
+  "version": "1.0.0",
+  "legacyFiles": {
+    "legacyFileWithName.txt": "ef4d095af59a4ce1bdae2ca797dd587c"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "dependency-package",
+  "displayName": "Depencency Package",
+  "version": "1.0.0",
+  "legacyFolders": {
+    "Assets\\legacyFolderOfDependency": "ef4d095af59a4ce1bdae2ca797dd587c"
+  }
+}

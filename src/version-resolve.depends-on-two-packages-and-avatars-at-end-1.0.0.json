@@ -1,0 +1,10 @@
+{
+    "name": "version-resolve.depends-on-two-packages-and-avatars-at-end",
+    "displayName": "Depends on 'Package Depends on Avatars [12]' and Avatars at end",
+    "version": "1.0.0",
+    "vpmDependencies": {
+        "version-resolve.package-depends-on-avatars-1": "1.0.0",
+        "version-resolve.package-depends-on-avatars-2": "1.0.0",
+        "com.vrchat.avatars": ">= 3.2.0 < 4.0.0"
+    }
+}

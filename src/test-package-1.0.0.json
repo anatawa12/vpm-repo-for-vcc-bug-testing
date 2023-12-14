@@ -1,0 +1,11 @@
+{
+  "name": "test-package",
+  "displayName": "Test Package",
+  "version": "1.0.0",
+  "vpmDependencies": {
+    "dependency-package": "^1.0.0"
+  },
+  "legacyFolders": {
+    "Assets\\legacyFolderOfPackage": "d3f18a57eb784e98a85e5a7401778e7e"
+  }
+}
