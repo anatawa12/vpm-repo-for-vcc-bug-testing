@@ -74,7 +74,6 @@ async function processFile(repository: Repository, name: string) {
   const zip = new zipjs.ZipWriter(zipStream.writable);
   await zip.add("package.json", new zipjs.BlobReader(new Blob([new TextEncoder().encode(jsonText)])));
   await zip.close();
-  zipStream.close();
 }
 
 async function createIndexHtml(repository: Repository): Promise<string> {
