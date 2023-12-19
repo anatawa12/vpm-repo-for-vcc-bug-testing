@@ -1,0 +1,9 @@
+{
+    "name": "listing-action-type-detection.3.depends-on-worlds-and-qvpen",
+    "displayName": "Listing Action Type Detection: 3rd: depends on worlds and qvpen",
+    "version": "1.0.0",
+    "vpmDependencies": {
+        "com.vrchat.worlds": ">=3.4.0-beta.1",
+        "net.ureishi.qvpen": "*"
+    }
+}

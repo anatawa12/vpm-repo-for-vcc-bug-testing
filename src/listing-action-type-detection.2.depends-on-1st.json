@@ -1,0 +1,8 @@
+{
+    "name": "listing-action-type-detection.2.depends-on-1st",
+    "displayName": "Listing Action Type Detection: 2nd: depends on 1st",
+    "version": "1.0.0",
+    "vpmDependencies": {
+        "listing-action-type-detection.1.depends-on-worlds": "1.0.0"
+    }
+}

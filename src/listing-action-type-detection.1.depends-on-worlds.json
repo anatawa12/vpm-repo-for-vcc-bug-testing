@@ -1,0 +1,8 @@
+{
+    "name": "listing-action-type-detection.1.depends-on-worlds",
+    "displayName": "Listing Action Type Detection: 1st: depends on Worlds",
+    "version": "1.0.0",
+    "vpmDependencies": {
+        "com.vrchat.worlds": ">=3.4.0-beta.1"
+    }
+}
