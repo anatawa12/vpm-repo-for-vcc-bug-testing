@@ -1,0 +1,8 @@
+{
+  "name": "legacy-folder-with-guid",
+  "displayName": "Legacy Folder with GUID(08a9eae68bc34792ba38da0c96210685)",
+  "version": "1.0.0",
+  "legacyFiles": {
+    "Assets/ByGUIDOnly": "08a9eae68bc34792ba38da0c96210685"
+  }
+}
